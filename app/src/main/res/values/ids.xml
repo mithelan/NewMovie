@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="collapsing_toolbar" type="id" />
+    <item name="appbar" type="id" />
+    <item name="recyler_view" type="id" />
+</resources>

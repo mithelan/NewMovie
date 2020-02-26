@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/moviename"
+            android:text="@string/name_movie"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:textAlignment="center"/>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/layout_margin_left"
+                    android:textAlignment="center"/>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plot"
+                    android:paddingLeft="@dimen/layout_margin_left"
+                    android:textSize="20dp"
+                    android:text="@string/plot"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/layout_margin_left"
+                    android:textAlignment="center"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rating"
+                    android:paddingLeft="@dimen/layout_margin_left"
+                    android:textSize="20dp"
+                    android:text="@string/rating"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/layout_margin_left"
+                    android:textAlignment="center"/>
+
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/release"
+                    android:paddingLeft="@dimen/layout_margin_left"
+                    android:textSize="20dp"
+                    android:text="@string/release"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/layout_margin_left"
+                    android:textAlignment="center"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
